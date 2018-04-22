@@ -18,7 +18,7 @@ class Patient
   end
 
   def doctors
-    @appointments.collect do |appt|
+    self.appointments.collect do |appt|
       appt.doctor
     end
   end
