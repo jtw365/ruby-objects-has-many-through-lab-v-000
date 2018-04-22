@@ -18,7 +18,7 @@ class Patient
 
   def doctors
     @appointments.collect do |appt|
-      appt.patient
+      appt.doctor
     end
   end
 
