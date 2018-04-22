@@ -23,6 +23,9 @@ class Doctor
     end
   end
 
+  def doctors
+    self.appointments
+
 
 
 end
